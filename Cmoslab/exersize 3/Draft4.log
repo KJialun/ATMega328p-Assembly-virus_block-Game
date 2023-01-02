@@ -1,0 +1,25 @@
+Circuit: * C:\Users\kou\Desktop\second_semester\sensor electronic\Cmoslab\exersize 3\Draft4.asc
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue May 31 13:03:31 2022
+Total elapsed time: 0.098 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4623
+traniter = 4616
+tranpoints = 2261
+accept = 2063
+rejected = 198
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 204 bytes object code size  0.1/0.0/[0.0]
+Matrix Compiler2: 311 bytes object code size  0.0/0.0/[0.0]
+

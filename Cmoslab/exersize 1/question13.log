@@ -1,0 +1,23 @@
+Circuit: * C:\Users\kou\Desktop\cmos lab\question13.asc
+
+WARNING: Node OUT is floating.
+
+.OP point found by inspection.
+
+Date: Wed Mar 02 14:42:20 2022
+Total elapsed time: 0.107 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2156
+traniter = 2156
+tranpoints = 1079
+accept = 1071
+rejected = 8
+matrix size = 3
+fillins = 0
+solver = Normal
+Matrix Compiler1: 86 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 163 bytes object code size  0.1/0.1/[0.1]
+
