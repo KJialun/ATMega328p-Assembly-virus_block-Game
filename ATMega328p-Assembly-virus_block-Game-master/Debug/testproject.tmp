@@ -1,0 +1,86 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Debug\testproject.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>testproject.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>testproject.map</FILE>
+  <FILE>testproject.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>10</LINE></init>
+  <Display><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>414</LINE></Display>
+  <initialPage><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>84</LINE></initialPage>
+  <Start><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>44</LINE></Start>
+  <Scan_keyboard><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>155</LINE></Scan_keyboard>
+  <initial_game><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>52</LINE></initial_game>
+  <LEVEL1><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>127</LINE></LEVEL1>
+  <Play_loop><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>58</LINE></Play_loop>
+  <MOVE_VIRUS><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>339</LINE></MOVE_VIRUS>
+  <MOVE_VIRUS2><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>352</LINE></MOVE_VIRUS2>
+  <Decision><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>368</LINE></Decision>
+  <DRAW_POSITION><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>70</LINE></DRAW_POSITION>
+  <HUGE_DELAY><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>529</LINE></HUGE_DELAY>
+  <ShowNothing><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>141</LINE></ShowNothing>
+  <SNG><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>146</LINE></SNG>
+  <step1><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>157</LINE></step1>
+  <B7><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>265</LINE></B7>
+  <notuseButton><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>258</LINE></notuseButton>
+  <step2><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>171</LINE></step2>
+  <B5><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>218</LINE></B5>
+  <step3><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>185</LINE></step3>
+  <B1><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>240</LINE></B1>
+  <B2><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>248</LINE></B2>
+  <B3><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>233</LINE></B3>
+  <step4><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>199</LINE></step4>
+  <B0><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>225</LINE></B0>
+  <END><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>215</LINE></END>
+  <END1><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>222</LINE></END1>
+  <UP><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>273</LINE></UP>
+  <END2><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>229</LINE></END2>
+  <DOWN><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>288</LINE></DOWN>
+  <END3><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>237</LINE></END3>
+  <RIGHT><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>320</LINE></RIGHT>
+  <END4><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>244</LINE></END4>
+  <LEFT><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>303</LINE></LEFT>
+  <END5><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>254</LINE></END5>
+  <END6><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>262</LINE></END6>
+  <END7><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>269</LINE></END7>
+  <DoNotmove_UP><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>284</LINE></DoNotmove_UP>
+  <DoNotmove_DOWN><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>299</LINE></DoNotmove_DOWN>
+  <JUMBCAK_LEFT><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>315</LINE></JUMBCAK_LEFT>
+  <JUMBCAK_RIGHT><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>332</LINE></JUMBCAK_RIGHT>
+  <JUMBCAK_BACK><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>348</LINE></JUMBCAK_BACK>
+  <JUMBCAK_BACK2><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>361</LINE></JUMBCAK_BACK2>
+  <LOOSE1><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>374</LINE></LOOSE1>
+  <LOSEGAME><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>377</LINE></LOSEGAME>
+  <TEST1><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>400</LINE></TEST1>
+  <Send8Row><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>431</LINE></Send8Row>
+  <BlockLoop><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>437</LINE></BlockLoop>
+  <CharTable><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>542</LINE></CharTable>
+  <loop><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>448</LINE></loop>
+  <BlockColLoop><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>460</LINE></BlockColLoop>
+  <CarryIs0><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>466</LINE></CarryIs0>
+  <RowLoop><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>479</LINE></RowLoop>
+  <CarryIs1><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>484</LINE></CarryIs1>
+  <ENABLE><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>510</LINE></ENABLE>
+  <DELAY><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>515</LINE></DELAY>
+  <Delayloop1><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>518</LINE></Delayloop1>
+  <DelayLoop2><FILE>C:\Users\kou\Desktop\second_semester\sensor electronic\microprocessor\Kou_jialun_project_CODE\Project.asm</FILE><LINE>521</LINE></DelayLoop2>
+ </LABELS>
+</ASSEMBLER_INFO>
