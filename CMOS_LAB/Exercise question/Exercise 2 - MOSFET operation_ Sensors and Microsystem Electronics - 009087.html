@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://canvas.vub.be/courses/24056/quizzes/23760 -->
+<html class="" dir="ltr" lang="en-GB"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="sentry-trace" content="2b8aa0dad4f4466e8c7b379080b343e3-146f2d9354dfa5b6-0">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin="anonmyous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin="anonmyous">
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin="anonmyous">
+  <link rel="stylesheet" media="screen" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/fonts-43e9c545fc.css">
+    <script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico">
+  <link rel="apple-touch-icon" href="https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png">
+  <link rel="stylesheet" media="all" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/variables-7dd4b80918af0e0218ec0229e4bd5873.css">
+  <link rel="stylesheet" media="all" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/common-70dfd56868.css">
+  <meta name="apple-itunes-app" content="app-id=480883488">
+<link rel="manifest" href="https://canvas.vub.be/web-app-manifest/manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff6600">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" media="all" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/quizzes-0b759d57f7.css">
+<link rel="stylesheet" media="all" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/learning_outcomes-a9a9fe5d8b.css">
+<link rel="stylesheet" media="all" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/new_user_tutorials-2950c871dd.css">
+  <link rel="stylesheet" media="all" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/main.css">
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          if (!e.defaultPrevented) {
+            e.preventDefault()
+          }
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+
+
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"eu.nv.instructuremedia.com","resource_domain":"eu.nv.instructuremedia.com","rtmp_domain":"dub.rtmp.instructuremedia.com","partner_id":"5","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"disableGooglePreviews":true,"logPageViews":true,"editorButtons":[{"name":"Commons Favourites","id":1,"favorite":false,"url":"https://lor.instructure.com/api/lti/favorite-resources","icon_url":"https://lor.instructure.com/img/icon_commons.png","canvas_icon_class":null,"width":800,"height":400,"use_tray":true,"description":"\u003cp\u003eFind and share course content\u003c/p\u003e\n"},{"name":"YouTube","id":2,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=youtube","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/youtube_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eSearch publicly available YouTube videos. A new icon will show up in your course rich editor letting you search YouTube and click to embed videos in your course material.\u003c/p\u003e\n"},{"name":"Office 365","id":4,"favorite":false,"url":"https://office365-dub-prod.instructure.com/lti/rce-content-item","icon_url":"https://office365-dub-prod.instructure.com/images/office365_icon.png","canvas_icon_class":null,"width":900,"height":600,"use_tray":false,"description":"\u003cp\u003eAllows you to pull in documents from Office 365 to Canvas\u003c/p\u003e\n"},{"name":"Panopto","id":15,"favorite":true,"url":"https://vub.cloud.panopto.eu/Panopto/LTI/LTI.aspx","icon_url":"https://vub.cloud.panopto.eu/Panopto/images/panopto_logo_globe.png","canvas_icon_class":null,"width":900,"height":700,"use_tray":false,"description":""},{"name":"Microsoft Teams Meetings","id":17166,"favorite":true,"url":"https://msteams-lti-iad-prod.inscloudgate.net/resource_link_request","icon_url":"https://msteams-lti-iad-prod.inscloudgate.net/images/placement_icon.png","canvas_icon_class":null,"width":575,"height":700,"use_tray":false,"description":"\u003cp\u003eMicrosoft Teams Meetings integration for Canvas LMS\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/3679e645ee9fd2a7b95f4ad9700ecc77/variables-7dd4b80918af0e0218ec0229e4bd5873.json","active_brand_config":{"md5":"3679e645ee9fd2a7b95f4ad9700ecc77","variables":{"ic-brand-primary":"#003399","ic-link-color":"#003399","ic-brand-button--primary-bgd":"#ff6600","ic-brand-global-nav-bgd":"#ff6600","ic-brand-global-nav-menu-item__text-color--active":"#000000","ic-brand-global-nav-menu-item__badge-bgd":"#ff6600","ic-brand-global-nav-logo-bgd":"#ffffff","ic-brand-header-image":"https://instructure-uploads-eu.s3.eu-west-1.amazonaws.com/account_122300000000000001/attachments/3/VUB.png","ic-brand-watermark-opacity":"1"},"share":false,"name":null,"created_at":"2018-11-16T10:15:52+01:00","js_overrides":"https://instructure-uploads-eu.s3.eu-west-1.amazonaws.com/account_122300000000000001/attachments/68211/main.js","css_overrides":"https://instructure-uploads-eu.s3.eu-west-1.amazonaws.com/account_122300000000000001/attachments/68212/main.css","mobile_js_overrides":"","mobile_css_overrides":"","parent_md5":null},"confetti_branding_enabled":false,"url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/3679e645ee9fd2a7b95f4ad9700ecc77/variables-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-a64c7fe33c.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-43e9c545fc.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/default/variables-high_contrast-7dd4b80918af0e0218ec0229e4bd5873.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-fa0672d544.css","https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/fonts-43e9c545fc.css"],"current_user_id":"52360","current_user_global_id":"122300000000052360","current_user_roles":["user","student"],"current_user_is_student":false,"current_user_types":[],"current_user_disabled_inbox":false,"current_user_visited_tabs":null,"discussions_reporting":false,"files_domain":"cluster215.canvas-user-content.com","DOMAIN_ROOT_ACCOUNT_ID":"122300000000000001","k12":false,"help_link_name":"Help","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *","clipboard-write *","display-capture *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://canvas.vub.be","DEEP_LINKING_LOGGING":null,"comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":true,"release_notes_badge_disabled":false},"FULL_STORY_ENABLED":false,"RAILS_ENVIRONMENT":"Production","SENTRY_FRONTEND":{"dsn":"https://355a1d96717e4038ac25aa852fa79a8f@relay-dub.sentry.insops.net/388","org_slug":"instructure","base_url":"https://sentry.insops.net","normalized_route":"/courses/{course_id}/quizzes/{id}","errors_sample_rate":"0.0005","traces_sample_rate":"0.0005","url_deny_pattern":"instructure-uploads.*amazonaws.com","revision":"canvas-lms@20230104.147"},"DATA_COLLECTION_ENDPOINT":"https://canvas-frontend-data-dub-prod.inscloudgate.net/submit","DIRECT_SHARE_ENABLED":false,"CAN_VIEW_CONTENT_SHARES":false,"FEATURES":{"featured_help_links":true,"lti_platform_storage":false,"scale_equation_images":true,"buttons_and_icons_cropper":true,"calendar_series":false,"account_level_blackout_dates":false,"account_calendar_events":true,"rce_ux_improvements":false,"render_both_to_do_lists":false,"course_paces_redesign":false,"course_paces_for_students":false,"rce_better_paste":false,"product_tours":false,"files_dnd":true,"usage_rights_discussion_topics":true,"granular_permissions_manage_users":true,"create_course_subaccount_picker":true,"lti_deep_linking_module_index_menu_modal":true,"lti_multiple_assignment_deep_linking":true,"buttons_and_icons_root_account":false,"extended_submission_state":false,"scheduled_page_publication":true,"send_usage_metrics":false,"embedded_release_notes":true,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"52360","anonymous_id":"14eg","display_name":"Jialun Kou","avatar_image_url":"https://canvas.vub.be/images/thumbnails/1056457/TWxdU9G2ovyvHo2NsRFholu6cLnqzjLQPMpbjg5v","html_url":"https://canvas.vub.be/about/52360","pronouns":null,"avatar_is_fallback":false},"page_view_update_url":"/page_views/3f3c1d08-aca7-49c9-8f58-1d8ded18eabf?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiM2YzYzFkMDgtYWNhNy00OWM5LThmNTgtMWQ4ZGVkMThlYWJmIiwidSI6MTIyMzAwMDAwMDAwMDUyMzYwLCJjIjoiMjAyMy0wMS0wNVQxMzowNDowMi40NVoifQ.mXUzO_GqT-Y95vjVhcYdZk6GZLxVlwQXqgEQvUQET8E","context_asset_string":"course_24056","ping_url":"https://canvas.vub.be/api/v1/courses/24056/ping","TIMEZONE":"Europe/Brussels","CONTEXT_TIMEZONE":"Europe/Brussels","LOCALES":["en-GB","en"],"BIGEASY_LOCALE":"en_GB","FULLCALENDAR_LOCALE":"en-gb","MOMENT_LOCALE":"en-gb","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"LOCALE_TRANSLATION_FILE":"/dist/javascripts/translations/en-GB-7ca0359c17.json","RICH_CONTENT_APP_HOST":"rich-content-dub.inscloudgate.net","JWT":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSWl3aWNtVm5hVzl1SWpvaVpYVXRkMlZ6ZEMweElpd2laVzUyYVhKdmJtMWxiblFpT2lKUWNtOWtkV04wYVc5dUluMC4uXzh6cVdEanl4M2ZET0kzLS5IaHBsMU1PamU3ODFCcEtBRU1FUWFJdEhPbE1pUUNvOVhsZmU2dXZXY0tzcjdkUmoteDNWOXJTWTBUd2oyWjVjUXJ5Nm1ZMlFjS2RLYXprQmpocjdrUTMwY09KNjhvTVlUSmhOc3Q1NEZrZXh2aEQ0RldkMGNIa2k0Y19YaHlrVjNTR255cnJ0dzBtdGY0QmZUX1BzRmhjaE5hVTJUSTlaX0NfWHBXY3RqSTBSR1d0a2I0VFhiaDIwOUhHM2g2dklfYlpmcks1d3cyU1g2NDRWM1YxNWRQYVFCY1FkSVhrU2JvcmlVaFNHUzI0TUg4OE9vRXJRQWhQQ0ktU3pUbjFVRnB5YmhuZ0xxbTllbklGOXBSM2JWOU42c2ZNNXVrbExQQUloN3I2MTRFZExyU0ZmSjZXU1U3elZwc1p3bVNnMi0xWFRHSDQyaVVycXlHdm1pTzZFcDh3VHNONGwzMXNoMFZpdi04YzZDNXl2R0huQWRONXktcXhYTnJMU3VIVHhNRFc5MkxyQmh1LTZXYVFLb3dqLVVTdGVTcmdVdVVtSUlsN1ozcENsMUhTb3VVOHF2QkRYd1FnZFU3a3NlVldlTmNFNl9ldGhJWkF5YXFKOHU0TGZPaHZRN3ZhV00xelZObmVLQ193RG5IU2dSNEZGM2NzNC0taGpmVU9OSHA0N0ktR3RTa3U5aFdWNWJYR1FVZV9MaUF0RlFubEpiRkpKOE1iQzh1OUM0SEZuYmpZVDBSMjQ2amRoTThHemVTaGs2cm5SMTBWTWhoVEJlNFN6b21KR29MRmdvNFJ1bTJvSGtQMlpLTUpUaS1od202OGhxd0RfRXplWENvLTg5WFVSNkFxVlh4dlBPNHJMU2RxdTIydVAtNXo5eU45cEJmbGtSVnRLODFaeG11SktsNkhyQXZiQy1WT2oyOTNqT3FCZGhNY0p0V2xBTEdlcnAxZ21yX1k1aVNtdEZLdDJYdUFiWUdkZ0hVRG8tUlJPS2RXVTJscndudUcxaWlnQVBwSW9jZXRSYldWU0hqcXJkTFVIM1VUT01ZTVRTWkJlWk44LmU0WEpCR0dCSGZ5RnJtR0lGUS1hUUE=","RICH_CONTENT_CAN_UPLOAD_FILES":false,"RICH_CONTENT_CAN_EDIT_FILES":false,"RICH_CONTENT_FILES_TAB_DISABLED":false,"RICH_CONTENT_INST_RECORD_TAB_DISABLED":false,"SUBMISSION_DOWNLOAD_DIALOG_TITLE":"Download all quiz file upload submissions","UPLOAD_URL":"/api/v1/courses/24056/quizzes/23760/submissions/self/files","SUBMISSION_VERSIONS_URL":"https://canvas.vub.be/courses/24056/quizzes/23760/submission_versions","QUIZ_SUBMISSION_EVENTS_URL":"https://canvas.vub.be/api/v1/courses/24056/quizzes/23760/submissions/400427/events","ATTACHMENTS":{},"CONTEXT_ACTION_SOURCE":"quizzes","COURSE_ID":"24056","LOCKDOWN_BROWSER":false,"QUIZ":{"id":"23760","title":"Exercise 2 - MOSFET operation","html_url":"https://canvas.vub.be/courses/24056/quizzes/23760","mobile_url":"https://canvas.vub.be/courses/24056/quizzes/23760?force_user=1\u0026persist_headless=1","description":"\u003ch1\u003ePreparation\u003c/h1\u003e\n\u003cp\u003eWhen designing a chip, an analog designer needs to chose a semiconductor fab (TSMC, Global foundries, AMS .......)and a process available (1um, 350 nm, 60 nm, 40 nm, 14 nm.........) in the fab. There are many factors to make the fab and the process decision, we will not go in detail on that (a bulk of decision making is budget-related).\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eFor this lab session, lets say you guys are my analog designers in my company and our company has decided to use a 350 nm CMOS process from AMS foundry.\u003c/p\u003e\n\u003cp\u003eOnce NDAs are signed AMS gives us the transistor models of this CMOS process so that we can start making simulations.\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eIn this session, you are provided with the transitor models associated with that technology to solve these exercises.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eDownload the file \u003ca class=\"instructure_file_link inline_disabled\" href=\"https://canvas.vub.be/courses/24056/files/1140698/download\" target=\"_blank\" data-api-endpoint=\"https://canvas.vub.be/api/v1/courses/24056/files/1140698\" data-api-returntype=\"File\"\u003elibrary.mod\u003c/a\u003e\u0026nbsp; (If the hyperlink\u0026nbsp; does not work, you can also find the library.mod file on \u003cstrong\u003eFile \u0026gt; Labs \u0026gt; CMOS\u003c/strong\u003e folder)on Canvas. Download this file to the folder where you will save your schematics.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eIn order to run simulations for any circuit containing transistors, you will need to include the following Spice operative (using the \u003cimg src=\"https://canvas.vub.be/courses/24056/files/1140699/preview\" alt=\"sp-1.JPG\" data-api-endpoint=\"https://canvas.vub.be/api/v1/courses/24056/files/1140699\" data-api-returntype=\"File\"\u003e button\u0026nbsp;):\u003c/p\u003e\n\u003cp\u003e\u003cspan\u003e.inc library.mod\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cspan\u003eThis line lets the simulator inherit the properties of PMOS and NMOS transistors we need from the library file. Even without the \".inc library.mod\" command, the simulations will run but the results will be for some other generic transistor models provided by LTspice. So, it is \u003cstrong\u003eimportant \u003c/strong\u003eto include the \u003cstrong\u003e\".inc library.mod\"\u003c/strong\u003e.\u0026nbsp;\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003e\u003cspan\u003eTip: Please remember the following graph (page 3 in your CMOSbasics.pdf course notes) about the triode region and saturation region of your transistor.\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://canvas.vub.be/courses/24056/files/1140700/preview\" alt=\"Capture.JPG\" data-api-endpoint=\"https://canvas.vub.be/api/v1/courses/24056/files/1140700\" data-api-returntype=\"File\"\u003e\u0026nbsp;\u0026nbsp;\u003c/p\u003e","quiz_type":"assignment","time_limit":null,"timer_autosubmit_disabled":false,"shuffle_answers":false,"show_correct_answers":false,"scoring_policy":"keep_highest","allowed_attempts":-1,"one_question_at_a_time":false,"question_count":8,"points_possible":20.0,"cant_go_back":false,"ip_filter":null,"due_at":null,"lock_at":null,"unlock_at":null,"published":true,"locked_for_user":true,"lock_info":{"missing_permission":"participate_as_student","asset_string":"quizzes:quiz_23760"},"lock_explanation":"This quiz is currently locked.","hide_results":null,"show_correct_answers_at":null,"hide_correct_answers_at":null,"all_dates":[{"due_at":null,"unlock_at":null,"lock_at":null,"base":true}],"can_update":false,"require_lockdown_browser":false,"require_lockdown_browser_for_results":false,"require_lockdown_browser_monitor":false,"lockdown_browser_monitor_data":"","permissions":{"manage":false,"read":true,"create":false,"update":false,"submit":false,"preview":false,"delete":false,"read_statistics":false,"grade":false,"review_grades":false,"view_answer_audits":false},"quiz_reports_url":"https://canvas.vub.be/api/v1/courses/24056/quizzes/23760/reports","quiz_statistics_url":"https://canvas.vub.be/api/v1/courses/24056/quizzes/23760/statistics","important_dates":false,"quiz_submission_versions_html_url":"https://canvas.vub.be/courses/24056/quizzes/23760/submission_versions","assignment_id":"41870","one_time_results":false,"assignment_group_id":"25056","show_correct_answers_last_attempt":false,"version_number":6,"has_access_code":false,"post_to_sis":false,"migration_id":"g3d10c322e5a9a9ede6125938ecd2c0d5","in_paced_course":false},"QUIZ_DETAILS_URL":"https://canvas.vub.be/courses/24056/quizzes/23760/managed_quiz_data","QUIZZES_URL":"https://canvas.vub.be/courses/24056/quizzes","MAX_GROUP_CONVERSATION_SIZE":100,"IS_SURVEY":false,"badge_counts":{"submissions":0},"notices":[],"active_context_tab":"quizzes"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl"],{"10":["8300658022",0,"250b5824c2",2],"15":["fc26aa5fd4",0,"f904416063",2],"19":["df5777ed9c"],"61":["f3934dab06","f405852bb2","ee5810890b","3fd9943b9a"],"67":["8b57f54e71",0,"43833dde85",2],"71":["35b89b103a","4304be7d41","58dbfc2651","2932678b1c"],"06":["cb9f63cba6",0,"2be010fc14",2],"f0":["7c947dce20",0,0,0],"c8":["12d5e4d1e8","9f7b02d283","4ebd280f3e","b547456f4c"],"1e":["02e336724a","d7bb142b0a","d7ac7fdfb8","c03b9b261e"],"b3":["8ebc71ebc3","cf8efa05c8","4efdc93a21","fd6d3a9780"],"4f":["0a2c3dcf2f",0,"79668e6396",2],"0c":["c26e82abac",0,"b71e9cbd6d",2],"da":["efb9fe6d7c","edbd1b5e83","a6dc56afb7","dfb2d13098"],"1d":["a3bfcb7961",0,"90682b3bbe",2],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["35936a18c3",0,0,0],"2b":["abf63f48ef","bf8e135ffe","378e0c136b","9833e305e6"],"2c":["6d919206cd",0,0,0],"c2":["6f2721ae01"],"9c":["ecafc938e4",0,"59e7c22304",2],"c5":["ebf0e1382f","7f587d9a8a","afbdabf23d","0d398196a8"],"f2":["51574f9b13"]}]
+;
+  </script>
+
+  <link rel="preload" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/variables-7dd4b80918af0e0218ec0229e4bd5873.js.download" as="script" type="text/javascript"><link rel="preload" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/Brussels-3e711cdf93.js.download" as="script" type="text/javascript"><link rel="preload" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/Brussels-3e711cdf93.js.download" as="script" type="text/javascript"><link rel="preload" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/en_GB-31745e04c9.js.download" as="script" type="text/javascript"><link rel="preload" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/en-gb-c-4891a37bb1.js.download" as="script" type="text/javascript"><link rel="preload" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/main-e-b329fac436.js.download" as="script" type="text/javascript" crossorigin="anonymous"><script>
+//<![CDATA[
+
+      ;["https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/3679e645ee9fd2a7b95f4ad9700ecc77/variables-7dd4b80918af0e0218ec0229e4bd5873.js", "https://du11hjcvx0uqb.cloudfront.net/dist/timezone/Europe/Brussels-3e711cdf93.js", "https://du11hjcvx0uqb.cloudfront.net/dist/timezone/Europe/Brussels-3e711cdf93.js", "https://du11hjcvx0uqb.cloudfront.net/dist/timezone/en_GB-31745e04c9.js", "https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/moment/locale/en-gb-c-4891a37bb1.js"].forEach(function(src) {
+        var s = document.createElement('script'); s.src = src; s.async = false;
+        document.head.appendChild(s)
+      });
+//]]>
+</script><script src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/variables-7dd4b80918af0e0218ec0229e4bd5873.js.download"></script><script src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/Brussels-3e711cdf93.js.download"></script><script src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/Brussels-3e711cdf93.js.download"></script><script src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/en_GB-31745e04c9.js.download"></script><script src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/en-gb-c-4891a37bb1.js.download"></script><script>
+//<![CDATA[
+
+      ;["https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/main-e-b329fac436.js"].forEach(function(src) {
+        var s = document.createElement('script'); s.src = src; s.async = false; s.crossOrigin = 'anonymous';
+        document.head.appendChild(s)
+      });
+//]]>
+</script><script src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/main-e-b329fac436.js.download" crossorigin="anonymous"></script><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/quiz_show-c-770eab2825.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/quiz_submission-c-6518b00199.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/navigation_header-c-568e0a157d.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('quiz_show');
+(window.bundles || (window.bundles = [])).push('quiz_submission');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  <title>Exercise 2 - MOSFET operation: Sensors and Microsystem Electronics - 009087</title>
+
+
+
+
+<style type="text/css"></style><script src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/main.js.download"></script><style type="text/css" data-glamor=""></style><link rel="stylesheet" href="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/messageStudentsDialog-11429f119a.css" data-loaded-by-brandablecss="true"><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 2001; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.mejs-offscreen{clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);clip-path:polygon(0px 0,0 0,0 0,0 0);position:absolute!important;height:1px;width:1px;overflow:hidden}.mejs-container{position:relative;background:#000;font-family:Helvetica,Arial,serif;text-align:left;vertical-align:top;text-indent:0}.mejs-fill-container,.mejs-fill-container .mejs-container{width:100%;height:100%}.mejs-fill-container{overflow:hidden}.mejs-container:focus{outline:0}.me-plugin{position:absolute}.mejs-embed,.mejs-embed body{width:100%;height:100%;margin:0;padding:0;background:#000;overflow:hidden}.mejs-fullscreen{overflow:hidden!important}.mejs-container-fullscreen{position:fixed;left:0;top:0;right:0;bottom:0;overflow:hidden;z-index:1000}.mejs-container-fullscreen .mejs-mediaelement,.mejs-container-fullscreen video{width:100%;height:100%}.mejs-clear{clear:both}.mejs-background{position:absolute;top:0;left:0}.mejs-mediaelement{position:absolute;top:0;left:0;width:100%;height:100%}.mejs-poster{position:absolute;top:0;left:0;background-size:contain;background-position:50% 50%;background-repeat:no-repeat}:root .mejs-poster img{display:none}.mejs-poster img{border:0;padding:0}.mejs-overlay{position:absolute;top:0;left:0}.mejs-overlay-play{cursor:pointer}.mejs-overlay-button{position:absolute;top:50%;left:50%;width:100px;height:100px;margin:-50px 0 0 -50px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/746c3af7a145a09239a36e5ef61cfea0.svg) no-repeat}.no-svg .mejs-overlay-button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/716436fb3df0d29e6b37dd62d952676a.png)}.mejs-overlay:hover .mejs-overlay-button{background-position:0 -100px}.mejs-overlay-loading{position:absolute;top:50%;left:50%;width:80px;height:80px;margin:-40px 0 0 -40px;background:#333;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.9);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.9)),to(rgba(0,0,0,.9)));background:-webkit-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-moz-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-o-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:-ms-linear-gradient(top,rgba(50,50,50,.9),rgba(0,0,0,.9));background:linear-gradient(rgba(50,50,50,.9),rgba(0,0,0,.9))}.mejs-overlay-loading span{display:block;width:80px;height:80px;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/76b326f4d44222126fee21076595bef5.gif) 50% 50% no-repeat}.mejs-container .mejs-controls{position:absolute;list-style-type:none;margin:0;padding:0;bottom:0;left:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));height:30px;width:100%}.mejs-container .mejs-controls div{list-style-type:none;background-image:none;display:block;float:left;margin:0;padding:0;width:26px;height:26px;font-size:11px;line-height:11px;font-family:Helvetica,Arial,serif;border:0}.mejs-controls .mejs-button button{cursor:pointer;display:block;font-size:0;line-height:0;text-decoration:none;margin:7px 5px;padding:0;position:absolute;height:16px;width:16px;border:0;background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/40f56f5a736da4effeb790cedb8a52f0.svg) no-repeat}.no-svg .mejs-controls .mejs-button button{background-image:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/24a0227fbdd3acfd86ff03fc3fc6c8a4.png)}.mejs-controls .mejs-button button:focus{outline:dotted 1px #999}.mejs-container .mejs-controls .mejs-time{color:#fff;display:block;height:17px;width:auto;padding:10px 3px 0;overflow:hidden;text-align:center;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}.mejs-container .mejs-controls .mejs-time a{color:#fff;font-size:11px;line-height:12px;display:block;float:left;margin:1px 2px 0 0;width:auto}.mejs-controls .mejs-play button{background-position:0 0}.mejs-controls .mejs-pause button{background-position:0 -16px}.mejs-controls .mejs-stop button{background-position:-112px 0}.mejs-controls div.mejs-time-rail{direction:ltr;width:200px;padding-top:5px}.mejs-controls .mejs-time-rail span,.mejs-controls .mejs-time-rail a{display:block;position:absolute;width:180px;height:10px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer}.mejs-controls .mejs-time-rail .mejs-time-total{margin:5px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-time-rail .mejs-time-buffering{width:100%;background-image:-o-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-webkit-gradient(linear,0 100%,100% 0,color-stop(0.25,rgba(255,255,255,.15)),color-stop(0.25,transparent),color-stop(0.5,transparent),color-stop(0.5,rgba(255,255,255,.15)),color-stop(0.75,rgba(255,255,255,.15)),color-stop(0.75,transparent),to(transparent));background-image:-webkit-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:-ms-linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image:linear-gradient(-45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size:15px 15px;-moz-background-size:15px 15px;-o-background-size:15px 15px;background-size:15px 15px;-webkit-animation:buffering-stripes 2s linear infinite;-moz-animation:buffering-stripes 2s linear infinite;-ms-animation:buffering-stripes 2s linear infinite;-o-animation:buffering-stripes 2s linear infinite;animation:buffering-stripes 2s linear infinite}@-webkit-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-moz-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-ms-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@-o-keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}@keyframes buffering-stripes{from{background-position:0 0}to{background-position:30px 0}}.mejs-controls .mejs-time-rail .mejs-time-loaded{background:#3caac8;background:rgba(60,170,200,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(44,124,145,.8)),to(rgba(78,183,212,.8)));background:-webkit-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-moz-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-o-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:-ms-linear-gradient(top,rgba(44,124,145,.8),rgba(78,183,212,.8));background:linear-gradient(rgba(44,124,145,.8),rgba(78,183,212,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-current{background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8));width:0}.mejs-controls .mejs-time-rail .mejs-time-handle{display:none;position:absolute;margin:0;width:10px;background:#fff;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;cursor:pointer;border:solid 2px #333;top:-2px;text-align:center}.mejs-controls .mejs-time-rail .mejs-time-float{position:absolute;display:none;background:#eee;width:36px;height:17px;border:solid 1px #333;top:-26px;margin-left:-18px;text-align:center;color:#111}.mejs-controls .mejs-time-rail .mejs-time-float-current{margin:2px;width:30px;display:block;text-align:center;left:0}.mejs-controls .mejs-time-rail .mejs-time-float-corner{position:absolute;display:block;width:0;height:0;line-height:0;border:solid 5px #eee;border-color:#eee transparent transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:15px;left:13px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float{width:48px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current{width:44px}.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-corner{left:18px}.mejs-controls .mejs-fullscreen-button button{background-position:-32px 0}.mejs-controls .mejs-unfullscreen button{background-position:-32px -16px}.mejs-controls .mejs-volume-button{}.mejs-controls .mejs-mute button{background-position:-16px -16px}.mejs-controls .mejs-unmute button{background-position:-16px 0}.mejs-controls .mejs-volume-button{position:relative}.mejs-controls .mejs-volume-button .mejs-volume-slider{height:115px;width:25px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;top:-115px;left:0;z-index:1;position:absolute;margin:0}.mejs-controls .mejs-volume-button:hover{-webkit-border-radius:0 0 4px 4px;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.5);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current{position:absolute;left:11px;top:8px;width:2px;height:100px;background:#ddd;background:rgba(255,255,255,.9);margin:0}.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle{position:absolute;left:4px;top:-3px;width:16px;height:6px;background:#ddd;background:rgba(255,255,255,.9);cursor:N-resize;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;margin:0}.mejs-controls a.mejs-horizontal-volume-slider{height:26px;width:56px;position:relative;display:block;float:left;vertical-align:middle}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#333;background:rgba(50,50,50,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(30,30,30,.8)),to(rgba(60,60,60,.8)));background:-webkit-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-moz-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-o-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:-ms-linear-gradient(top,rgba(30,30,30,.8),rgba(60,60,60,.8));background:linear-gradient(rgba(30,30,30,.8),rgba(60,60,60,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current{position:absolute;left:0;top:11px;width:50px;height:8px;margin:0;padding:0;font-size:1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:#fff;background:rgba(255,255,255,.8);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,.9)),to(rgba(200,200,200,.8)));background:-webkit-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-moz-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-o-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:-ms-linear-gradient(top,rgba(255,255,255,.9),rgba(200,200,200,.8));background:linear-gradient(rgba(255,255,255,.9),rgba(200,200,200,.8))}.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle{display:none}.mejs-controls .mejs-captions-button{position:relative}.mejs-controls .mejs-captions-button button{background-position:-48px 0}.mejs-controls .mejs-captions-button .mejs-captions-selector{position:absolute;bottom:26px;right:-51px;width:85px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px 10px 0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-captions-button .mejs-captions-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-captions-button .mejs-captions-selector ul li label{width:55px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-controls .mejs-captions-button .mejs-captions-translations{font-size:10px;margin:0 0 5px}.mejs-chapters{position:absolute;top:0;left:0;border-right:solid 1px #fff;width:10000px;z-index:1}.mejs-chapters .mejs-chapter{position:absolute;float:left;background:#222;background:rgba(0,0,0,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(50,50,50,.7)),to(rgba(0,0,0,.7)));background:-webkit-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-moz-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-o-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:-ms-linear-gradient(top,rgba(50,50,50,.7),rgba(0,0,0,.7));background:linear-gradient(rgba(50,50,50,.7),rgba(0,0,0,.7));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#323232, endColorstr=#000000);overflow:hidden;border:0}.mejs-chapters .mejs-chapter .mejs-chapter-block{font-size:11px;color:#fff;padding:5px;display:block;border-right:solid 1px #333;border-bottom:solid 1px #333;cursor:pointer}.mejs-chapters .mejs-chapter .mejs-chapter-block-last{border-right:0}.mejs-chapters .mejs-chapter .mejs-chapter-block:hover{background:#666;background:rgba(102,102,102,.7);background:-webkit-gradient(linear,0 0,0 100%,from(rgba(102,102,102,.7)),to(rgba(50,50,50,.6)));background:-webkit-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-moz-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-o-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:-ms-linear-gradient(top,rgba(102,102,102,.7),rgba(50,50,50,.6));background:linear-gradient(rgba(102,102,102,.7),rgba(50,50,50,.6));filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr=#666666, endColorstr=#323232)}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-title{font-size:12px;font-weight:700;display:block;white-space:nowrap;text-overflow:ellipsis;margin:0 0 3px;line-height:12px}.mejs-chapters .mejs-chapter .mejs-chapter-block .ch-timespan{font-size:12px;line-height:12px;margin:3px 0 4px;display:block;white-space:nowrap;text-overflow:ellipsis}.mejs-captions-layer{position:absolute;bottom:0;left:0;text-align:center;line-height:20px;font-size:16px;color:#fff}.mejs-captions-layer a{color:#fff;text-decoration:underline}.mejs-captions-layer[lang=ar]{font-size:20px;font-weight:400}.mejs-captions-position{position:absolute;width:100%;bottom:15px;left:0}.mejs-captions-position-hover{bottom:35px}.mejs-captions-text,.mejs__captions-text *{padding:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(20,20,20,.5);white-space:pre-wrap;-webkit-box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5);box-shadow:5px 0 0 rgba(20,20,20,.5),-5px 0 0 rgba(20,20,20,.5)}.me-cannotplay{}.me-cannotplay a{color:#fff;font-weight:700}.me-cannotplay span{padding:15px;display:block}.mejs-controls .mejs-loop-off button{background-position:-64px -16px}.mejs-controls .mejs-loop-on button{background-position:-64px 0}.mejs-controls .mejs-backlight-off button{background-position:-80px -16px}.mejs-controls .mejs-backlight-on button{background-position:-80px 0}.mejs-controls .mejs-picturecontrols-button{background-position:-96px 0}.mejs-contextmenu{position:absolute;width:150px;padding:10px;border-radius:4px;top:0;left:0;background:#fff;border:solid 1px #999;z-index:1001}.mejs-contextmenu .mejs-contextmenu-separator{height:1px;font-size:0;margin:5px 6px;background:#333}.mejs-contextmenu .mejs-contextmenu-item{font-family:Helvetica,Arial,serif;font-size:12px;padding:4px 6px;cursor:pointer;color:#333}.mejs-contextmenu .mejs-contextmenu-item:hover{background:#2C7C91;color:#fff}.mejs-controls .mejs-sourcechooser-button{position:relative}.mejs-controls .mejs-sourcechooser-button button{background-position:-128px 0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector{position:absolute;bottom:26px;right:-10px;width:130px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:10px;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li{margin:0 0 6px;padding:0;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label{width:100px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:10px}.mejs-postroll-layer{position:absolute;bottom:0;left:0;width:100%;height:100%;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);z-index:1000;overflow:hidden}.mejs-postroll-layer-content{width:100%;height:100%}.mejs-postroll-close{position:absolute;right:0;top:0;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);color:#fff;padding:4px;z-index:100;cursor:pointer}div.mejs-speed-button{width:46px!important;position:relative}.mejs-controls .mejs-button.mejs-speed-button button{background:transparent;width:36px;font-size:11px;line-height:normal;color:#fff}.mejs-controls .mejs-speed-button .mejs-speed-selector{position:absolute;top:-100px;left:-10px;width:60px;height:100px;background:url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/703c659e4bf563a05c6338a1727e006c.png);background:rgba(50,50,50,.7);border:solid 1px transparent;padding:0;overflow:hidden;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label.mejs-speed-selected{color:rgba(33,248,248,1)}.mejs-controls .mejs-speed-button .mejs-speed-selector ul{margin:0;padding:0;display:block;list-style-type:none!important;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li{margin:0 0 6px;padding:0 10px;list-style-type:none!important;display:block;color:#fff;overflow:hidden}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li input{clear:both;float:left;margin:3px 3px 0 5px}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li label{width:60px;float:left;padding:4px 0 0;line-height:15px;font-family:Helvetica,Arial,serif;font-size:11px;color:#fff;margin-left:5px;cursor:pointer}.mejs-controls .mejs-speed-button .mejs-speed-selector ul li:hover{background-color:#c8c8c8!important;background-color:rgba(255,255,255,.4)!important}.mejs-controls .mejs-button.mejs-jump-forward-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/15e1ac8cbacc2efdf1ac2677de48a253.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-jump-forward-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}.mejs-controls .mejs-button.mejs-skip-back-button{background:transparent url(https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/cd6dc830eb45b3a5a96bbc936ff54846.png) no-repeat 3px 3px}.mejs-controls .mejs-button.mejs-skip-back-button button{background:transparent;font-size:9px;line-height:normal;color:#fff}</style><style type="text/css">/*
+ * Copyright (C) 2014 - present Instructure, Inc.
+ *
+ * This file is part of Canvas.
+ *
+ * Canvas is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License as published by the Free
+ * Software Foundation, version 3 of the License.
+ *
+ * Canvas is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along
+ * with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* customizations to mediaelementplayer css */
+
+/*
+  Because this file is not proccessed by our brandable_css sass pipeline,
+  it cannot use our sass-direction helpers. So we have to handle RTL manually
+  by putting direction-specific styles in [dir="ltr"] or [dir="rtl"] blocks.
+*/
+/* stylelint-disable property-disallowed-list, declaration-property-value-disallowed-list */
+
+/* good menu widths */
+.mejs-sourcechooser-selector {
+  width: 160px;
+}
+.mejs-sourcechooser-selector label {
+  width: 160px !important;
+}
+
+.mejs-captions-selector {
+  width: 105px;
+}
+[dir="ltr"]  .mejs-captions-selector { text-align: left }
+[dir="rtl"]  .mejs-captions-selector { text-align: right }
+
+.mejs-captions-selector label {
+  width: 70px !important;
+}
+
+/* Subtitile upload link */
+.mejs-captions-selector .upload-track {
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+[dir="ltr"] .mejs-captions-selector .upload-track {
+  margin-right: 0px;
+  margin-left: 5px;
+  float: left;
+}
+[dir="rtl"] .mejs-captions-selector .upload-track {
+  margin-left: 0px;
+  margin-right: 5px;
+  float: right;
+}
+
+/* "x" button to remove a subtitle */
+.mejs-captions-selector a[data-remove] {
+  position: absolute;
+  top: 0;
+  color: white;
+}
+[dir="ltr"] .mejs-captions-selector a[data-remove] { right: 0 }
+[dir="rtl"] .mejs-captions-selector a[data-remove] { left: 0 }
+
+
+/* style menu items without a radio button */
+.mejs-button [role="menu"] {
+  padding: 0 !important;
+}
+ /* compensate for above 0 padding */
+ .mejs-button [role="menu"] ul li {
+  position: relative;
+  padding: 0 10px !important;
+}
+/* add a hover effect */
+.mejs-button [role="menu"] ul li:hover {
+  background-color: #c8c8c8 !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.mejs-button [role="menu"] ul li input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+}
+.mejs-button [role="menu"] ul li label {
+  cursor: pointer;
+}
+[dir="ltr"] .mejs-button [role="menu"] ul li label { margin-left: 5px }
+[dir="rtl"] .mejs-button [role="menu"] ul li label { margin-right: 5px }
+
+
+.mejs-button [role="menu"] label.mejs-selected {
+  color: #21f8f8 !important;
+}
+
+/* stylelint-enable property-disallowed-list, declaration-property-value-disallowed-list */
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_SVG_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax_SVG .MJX-monospace {font-family: monospace}
+.MathJax_SVG .MJX-sans-serif {font-family: sans-serif}
+#MathJax_SVG_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax_SVG {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax_SVG * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_SVG > div {display: inline-block}
+.mjx-svg-href {fill: blue; stroke: blue}
+.MathJax_SVG_Processing {visibility: hidden; position: absolute; top: 0; left: 0; width: 0; height: 0; overflow: hidden; display: block!important}
+.MathJax_SVG_Processed {display: none!important}
+.MathJax_SVG_test {font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.MathJax_SVG_test.mjx-test-display {display: table!important}
+.MathJax_SVG_test.mjx-test-inline {display: inline!important; margin-right: -1px}
+.MathJax_SVG_test.mjx-test-default {display: block!important; clear: both}
+.MathJax_SVG_ex_box {display: inline-block!important; position: absolute; overflow: hidden; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0; width: 1px; height: 60ex}
+.mjx-test-inline .MathJax_SVG_left_box {display: inline-block; width: 0; float: left}
+.mjx-test-inline .MathJax_SVG_right_box {display: inline-block; width: 0; float: right}
+.mjx-test-display .MathJax_SVG_right_box {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax_SVG .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+<body class="with-left-side course-menu-expanded with-right-side quizzes primary-nav-transitions full-width context-course_24056 responsive_student_grades_page webkit chrome no-touch" data-new-gr-c-s-check-loaded="14.1026.0" data-gr-ext-installed=""><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_SVG_Hidden"></div><svg><defs id="MathJax_SVG_glyphs"><path stroke-width="1" id="MJMAIN-B1" d="M56 320T56 333T70 353H369V502Q369 651 371 655Q376 666 388 666Q402 666 405 654T409 596V500V353H707Q722 345 722 333Q722 320 707 313H409V40H707Q722 32 722 20T707 0H70Q56 7 56 20T70 40H369V313H70Q56 320 56 333Z"></path><path stroke-width="1" id="MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path stroke-width="1" id="MJMATHI-3BC" d="M58 -216Q44 -216 34 -208T23 -186Q23 -176 96 116T173 414Q186 442 219 442Q231 441 239 435T249 423T251 413Q251 401 220 279T187 142Q185 131 185 107V99Q185 26 252 26Q261 26 270 27T287 31T302 38T315 45T327 55T338 65T348 77T356 88T365 100L372 110L408 253Q444 395 448 404Q461 431 491 431Q504 431 512 424T523 412T525 402L449 84Q448 79 448 68Q448 43 455 35T476 26Q485 27 496 35Q517 55 537 131Q543 151 547 152Q549 153 557 153H561Q580 153 580 144Q580 138 575 117T555 63T523 13Q510 0 491 -8Q483 -10 467 -10Q446 -10 429 -4T402 11T385 29T376 44T374 51L368 45Q362 39 350 30T324 12T288 -4T246 -11Q199 -11 153 12L129 -85Q108 -167 104 -180T92 -202Q76 -216 58 -216Z"></path><path stroke-width="1" id="MJMATHI-41" d="M208 74Q208 50 254 46Q272 46 272 35Q272 34 270 22Q267 8 264 4T251 0Q249 0 239 0T205 1T141 2Q70 2 50 0H42Q35 7 35 11Q37 38 48 46H62Q132 49 164 96Q170 102 345 401T523 704Q530 716 547 716H555H572Q578 707 578 706L606 383Q634 60 636 57Q641 46 701 46Q726 46 726 36Q726 34 723 22Q720 7 718 4T704 0Q701 0 690 0T651 1T578 2Q484 2 455 0H443Q437 6 437 9T439 27Q443 40 445 43L449 46H469Q523 49 533 63L521 213H283L249 155Q208 86 208 74ZM516 260Q516 271 504 416T490 562L463 519Q447 492 400 412L310 260L413 259Q516 259 516 260Z"></path><path stroke-width="1" id="MJMATHI-76" d="M173 380Q173 405 154 405Q130 405 104 376T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Q21 294 29 316T53 368T97 419T160 441Q202 441 225 417T249 361Q249 344 246 335Q246 329 231 291T200 202T182 113Q182 86 187 69Q200 26 250 26Q287 26 319 60T369 139T398 222T409 277Q409 300 401 317T383 343T365 361T357 383Q357 405 376 424T417 443Q436 443 451 425T467 367Q467 340 455 284T418 159T347 40T241 -11Q177 -11 139 22Q102 54 102 117Q102 148 110 181T151 298Q173 362 173 380Z"></path><path stroke-width="1" id="MJMATHI-47" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q492 659 471 656T418 643T357 615T294 567T236 496T189 394T158 260Q156 242 156 221Q156 173 170 136T206 79T256 45T308 28T353 24Q407 24 452 47T514 106Q517 114 529 161T541 214Q541 222 528 224T468 227H431Q425 233 425 235T427 254Q431 267 437 273H454Q494 271 594 271Q634 271 659 271T695 272T707 272Q721 272 721 263Q721 261 719 249Q714 230 709 228Q706 227 694 227Q674 227 653 224Q646 221 643 215T629 164Q620 131 614 108Q589 6 586 3Q584 1 581 1Q571 1 553 21T530 52Q530 53 528 52T522 47Q448 -22 322 -22Q201 -22 126 55T50 252Z"></path><path stroke-width="1" id="MJMATHI-53" d="M308 24Q367 24 416 76T466 197Q466 260 414 284Q308 311 278 321T236 341Q176 383 176 462Q176 523 208 573T273 648Q302 673 343 688T407 704H418H425Q521 704 564 640Q565 640 577 653T603 682T623 704Q624 704 627 704T632 705Q645 705 645 698T617 577T585 459T569 456Q549 456 549 465Q549 471 550 475Q550 478 551 494T553 520Q553 554 544 579T526 616T501 641Q465 662 419 662Q362 662 313 616T263 510Q263 480 278 458T319 427Q323 425 389 408T456 390Q490 379 522 342T554 242Q554 216 546 186Q541 164 528 137T492 78T426 18T332 -20Q320 -22 298 -22Q199 -22 144 33L134 44L106 13Q83 -14 78 -18T65 -22Q52 -22 52 -14Q52 -11 110 221Q112 227 130 227H143Q149 221 149 216Q149 214 148 207T144 186T142 153Q144 114 160 87T203 47T255 29T308 24Z"></path><path stroke-width="1" id="MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path><path stroke-width="1" id="MJMATHI-54" d="M40 437Q21 437 21 445Q21 450 37 501T71 602L88 651Q93 669 101 677H569H659Q691 677 697 676T704 667Q704 661 687 553T668 444Q668 437 649 437Q640 437 637 437T631 442L629 445Q629 451 635 490T641 551Q641 586 628 604T573 629Q568 630 515 631Q469 631 457 630T439 622Q438 621 368 343T298 60Q298 48 386 46Q418 46 427 45T436 36Q436 31 433 22Q429 4 424 1L422 0Q419 0 415 0Q410 0 363 1T228 2Q99 2 64 0H49Q43 6 43 9T45 27Q49 40 55 46H83H94Q174 46 189 55Q190 56 191 56Q196 59 201 76T241 233Q258 301 269 344Q339 619 339 625Q339 630 310 630H279Q212 630 191 624Q146 614 121 583T67 467Q60 445 57 441T43 437H40Z"></path><path stroke-width="1" id="MJMATHI-48" d="M228 637Q194 637 192 641Q191 643 191 649Q191 673 202 682Q204 683 219 683Q260 681 355 681Q389 681 418 681T463 682T483 682Q499 682 499 672Q499 670 497 658Q492 641 487 638H485Q483 638 480 638T473 638T464 637T455 637Q416 636 405 634T387 623Q384 619 355 500Q348 474 340 442T328 395L324 380Q324 378 469 378H614L615 381Q615 384 646 504Q674 619 674 627T617 637Q594 637 587 639T580 648Q580 650 582 660Q586 677 588 679T604 682Q609 682 646 681T740 680Q802 680 835 681T871 682Q888 682 888 672Q888 645 876 638H874Q872 638 869 638T862 638T853 637T844 637Q805 636 794 634T776 623Q773 618 704 340T634 58Q634 51 638 51Q646 48 692 46H723Q729 38 729 37T726 19Q722 6 716 0H701Q664 2 567 2Q533 2 504 2T458 2T437 1Q420 1 420 10Q420 15 423 24Q428 43 433 45Q437 46 448 46H454Q481 46 514 49Q520 50 522 50T528 55T534 64T540 82T547 110T558 153Q565 181 569 198Q602 330 602 331T457 332H312L279 197Q245 63 245 58Q245 51 253 49T303 46H334Q340 38 340 37T337 19Q333 6 327 0H312Q275 2 178 2Q144 2 115 2T69 2T48 1Q31 1 31 10Q31 12 34 24Q39 43 44 45Q48 46 59 46H65Q92 46 125 49Q139 52 144 61Q147 65 216 339T285 628Q285 635 228 637Z"></path></defs></svg></div><div id="MathJax_Message" style="display: none;"></div>
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1> To access this site, you must enable JavaScript.</h1>
+  </div>
+</noscript>
+
+
+
+
+<div id="flash_message_holder"></div>
+<div id="flash_screenreader_holder" role="alert" aria-live="assertive" aria-relevant="additions" class="screenreader-only" aria-atomic="true"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+
+<header id="mobile-header" class="no-print">
+  <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+    <i class="icon-solid icon-hamburger"></i>
+    <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+    <span class="screenreader-only">Dashboard</span>
+  </button>
+  <div class="mobile-header-space"></div>
+    <a class="mobile-header-title expandable" href="https://canvas.vub.be/courses/24056" role="button" aria-controls="mobileContextNavContainer">
+      <div>Sensors and Microsystem Electronics - 009087</div>
+        <div>Exercise 2 - MOSFET operation</div>
+    </a>
+    <div class="mobile-header-space"></div>
+    <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation menu">
+      <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+    </button>
+</header>
+<nav id="mobileContextNavContainer"></nav>
+
+<header id="header" class="ic-app-header no-print ">
+  <a href="https://canvas.vub.be/courses/24056/quizzes/23760#content" id="skip_navigation_link">Skip to content</a>
+  <div role="region" class="ic-app-header__main-navigation" aria-label="Global navigation">
+      <div class="ic-app-header__logomark-container">
+        <a href="https://canvas.vub.be/" class="ic-app-header__logomark">
+          <span class="screenreader-only">Dashboard</span>
+        </a>
+      </div>
+    <ul id="menu" class="ic-app-header__menu-list">
+        <li class="menu-item ic-app-header__menu-list-item ">
+          <button id="global_nav_profile_link" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container">
+              <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                <img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/d44ca798-9416-4f9f-b57d-c4b937b06eb0" alt="Jialun Kou">
+              </div>
+              <span class="menu-item__badge"></span>
+            </div>
+            <div class="menu-item__text">
+              Account
+            </div>
+          </button>
+        </li>
+      <li class="ic-app-header__menu-list-item ">
+        <a id="global_nav_dashboard_link" href="https://canvas.vub.be/" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--dashboard" version="1.1" x="0" y="0" viewBox="0 0 280 200" enable-background="new 0 0 280 200" xml:space="preserve"><path d="M273.09,180.75H197.47V164.47h62.62A122.16,122.16,0,1,0,17.85,142a124,124,0,0,0,2,22.51H90.18v16.29H6.89l-1.5-6.22A138.51,138.51,0,0,1,1.57,142C1.57,65.64,63.67,3.53,140,3.53S278.43,65.64,278.43,142a137.67,137.67,0,0,1-3.84,32.57ZM66.49,87.63,50.24,71.38,61.75,59.86,78,76.12Zm147,0L202,76.12l16.25-16.25,11.51,11.51ZM131.85,53.82v-23h16.29v23Zm15.63,142.3a31.71,31.71,0,0,1-28-16.81c-6.4-12.08-15.73-72.29-17.54-84.25a8.15,8.15,0,0,1,13.58-7.2c8.88,8.21,53.48,49.72,59.88,61.81a31.61,31.61,0,0,1-27.9,46.45ZM121.81,116.2c4.17,24.56,9.23,50.21,12,55.49A15.35,15.35,0,1,0,161,157.3C158.18,152,139.79,133.44,121.81,116.2Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">Dashboard</div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+          <button id="global_nav_courses_link" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--courses" version="1.1" x="0" y="0" viewBox="0 0 280 259" enable-background="new 0 0 280 259" xml:space="preserve"><path d="M73.31,198c-11.93,0-22.22,8-24,18.73a26.67,26.67,0,0,0-.3,3.63v.3a22,22,0,0,0,5.44,14.65,22.47,22.47,0,0,0,17.22,8H200V228.19h-134V213.08H200V198Zm21-105.74h90.64V62H94.3ZM79.19,107.34V46.92H200v60.42Zm7.55,30.21V122.45H192.49v15.11ZM71.65,16.71A22.72,22.72,0,0,0,49,39.36V190.88a41.12,41.12,0,0,1,24.32-8h157V16.71ZM33.88,39.36A37.78,37.78,0,0,1,71.65,1.6H245.36V198H215.15v45.32h22.66V258.4H71.65a37.85,37.85,0,0,1-37.76-37.76Z"></path></svg>
+
+            </div>
+            <div class="menu-item__text">
+              Courses
+            </div>
+          </button>
+        </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_calendar_link" href="https://canvas.vub.be/calendar" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--calendar" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M197.07,213.38h16.31V197.07H197.07Zm-16.31,16.31V180.76h48.92v48.92Zm-48.92-16.31h16.31V197.07H131.85Zm-16.31,16.31V180.76h48.92v48.92ZM66.62,213.38H82.93V197.07H66.62ZM50.32,229.68V180.76H99.24v48.92Zm146.75-81.53h16.31V131.85H197.07Zm-16.31,16.31V115.54h48.92v48.92Zm-48.92-16.31h16.31V131.85H131.85Zm-16.31,16.31V115.54h48.92v48.92ZM66.62,148.15H82.93V131.85H66.62ZM50.32,164.46V115.54H99.24v48.92ZM34,262.29H246V82.93H34ZM246,66.62V42.16A8.17,8.17,0,0,0,237.84,34H213.38v8.15a8.15,8.15,0,1,1-16.31,0V34H82.93v8.15a8.15,8.15,0,0,1-16.31,0V34H42.16A8.17,8.17,0,0,0,34,42.16V66.62Zm-8.15-48.92a24.49,24.49,0,0,1,24.46,24.46V278.6H17.71V42.16A24.49,24.49,0,0,1,42.16,17.71H66.62V9.55a8.15,8.15,0,0,1,16.31,0v8.15H197.07V9.55a8.15,8.15,0,1,1,16.31,0v8.15Z"></path></svg>
+
+          </div>
+          <div class="menu-item__text">
+            Calendar
+          </div>
+        </a>
+      </li>
+      <li class="menu-item ic-app-header__menu-list-item ">
+        <a id="global_nav_conversations_link" href="https://canvas.vub.be/conversations" class="ic-app-header__menu-list-link">
+          <div class="menu-item-icon-container">
+            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--inbox" version="1.1" x="0" y="0" viewBox="0 0 280 280" enable-background="new 0 0 280 280" xml:space="preserve"><path d="M91.72,120.75h96.56V104.65H91.72Zm0,48.28h80.47V152.94H91.72Zm0-96.56h80.47V56.37H91.72Zm160.94,34.88H228.52V10.78h-177v96.56H27.34A24.17,24.17,0,0,0,3.2,131.48V244.14a24.17,24.17,0,0,0,24.14,24.14H252.66a24.17,24.17,0,0,0,24.14-24.14V131.48A24.17,24.17,0,0,0,252.66,107.34Zm0,16.09a8.06,8.06,0,0,1,8,8v51.77l-32.19,19.31V123.44ZM67.58,203.91v-177H212.42v177ZM27.34,123.44H51.48v79.13L19.29,183.26V131.48A8.06,8.06,0,0,1,27.34,123.44ZM252.66,252.19H27.34a8.06,8.06,0,0,1-8-8V202l30,18H230.75l30-18v42.12A8.06,8.06,0,0,1,252.66,252.19Z"></path></svg>
+</span>
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Inbox
+          </div>
+        </a>
+      </li>
+        <li class="menu-item ic-app-header__menu-list-item">
+          <button id="global_nav_history_link" class="ic-app-header__menu-list-link">
+            <div class="menu-item-icon-container" aria-hidden="true">
+              <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"></path>
+</svg>
+            </div>
+            <div class="menu-item__text">
+              History
+            </div>
+          </button>
+        </li>
+        
+
+
+      <li class="ic-app-header__menu-list-item">
+        <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="http://help.instructure.com/">
+          <div class="menu-item-icon-container" role="presentation">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"></path></svg>
+
+            <span class="menu-item__badge"></span>
+          </div>
+          <div class="menu-item__text">
+            Help
+          </div>
+</a>      </li>
+    </ul>
+  </div>
+  <div class="ic-app-header__secondary-navigation">
+    <ul class="ic-app-header__menu-list">
+      <li class="menu-item ic-app-header__menu-list-item">
+        <button id="primaryNavToggle" class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle" aria-label="Expand global navigation
+                " title="Expand global navigation
+                ">
+          <div class="menu-item-icon-container" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"></path>
+</svg>
+
+          </div>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div id="global_nav_tray_container"></div>
+  <div id="global_nav_tour"></div>
+</header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/saved_resource.html" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+      <div class="ic-app-nav-toggle-and-crumbs no-print">
+          <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide courses navigation menu">
+            <i class="icon-hamburger" aria-hidden="true"></i>
+          </button>
+
+        <div class="ic-app-crumbs">
+            <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="https://canvas.vub.be/"><span class="ellipsible"><i class="icon-home" title="My dashboard">
+  <span class="screenreader-only">My dashboard</span>
+</i>
+</span></a></li><li><a href="https://canvas.vub.be/courses/24056"><span class="ellipsible">Sensors and Microsystem Electronics - 009087</span></a></li><li><a href="https://canvas.vub.be/courses/24056/quizzes"><span class="ellipsible">Quizzes</span></a></li><li><a href="https://canvas.vub.be/courses/24056/quizzes/23760"><span class="ellipsible">Exercise 2 - MOSFET operation</span></a></li></ul></nav>
+        </div>
+
+
+        <div class="right-of-crumbs">
+            <div class="TutorialToggleHolder"></div>
+        </div>
+
+      </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side" class="ic-app-course-menu ic-sticky-on list-view" style="display: block">
+          <div id="sticky-container" class="ic-sticky-frame">
+              <span id="section-tabs-header-subtitle" class="ellipsis">2122</span>
+            <nav role="navigation" aria-label="Courses navigation menu"><ul id="section-tabs"><li class="section"><a href="https://canvas.vub.be/courses/24056" class="home" tabindex="0">Home</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/announcements" class="announcements" tabindex="0">Announcements</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/assignments" class="assignments" tabindex="0">Assignments</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/discussion_topics" class="discussions" tabindex="0">Discussions</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/grades" class="grades" tabindex="0">Grades</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/files" class="files" tabindex="0">Files</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/assignments/syllabus" class="syllabus" tabindex="0">Syllabus</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/quizzes" aria-current="page" class="quizzes active" tabindex="0">Quizzes</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/collaborations" class="collaborations" tabindex="0">Collaborations</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/external_tools/4" class="context_external_tool_4" tabindex="0">Office 365</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/external_tools/15" class="context_external_tool_15" tabindex="0">Panopto</a></li><li class="section"><a href="https://canvas.vub.be/courses/24056/external_tools/30517" class="context_external_tool_30517" tabindex="0">Studiedeelfiche 2122</a></li></ul></nav>
+          </div>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+
+
+
+<div id="quiz_show">
+
+  <header class="quiz-header">
+
+
+    <h1 id="quiz_title">
+      Exercise 2 - MOSFET operation
+    </h1>
+
+
+    <div class="row-fluid">
+        <div id="quiz_details_wrapper" data-submitted-count=""></div>
+    </div>
+    <div class="row-fluid">
+        
+
+<!--<base target="_top">--><base href="." target="_top">
+<ul id="quiz_student_details">
+  <li>
+    <span class="title">Due</span>
+    <span class="value">
+        No due date
+    </span>
+  </li>
+
+  <li style="">
+    <span class="title">Points</span>
+    <span class="value">20</span>
+  </li>
+
+  <li>
+    <span class="title">Questions</span>
+    <span class="value">8</span>
+  </li>
+  
+
+  <li>
+    <span class="title">Time limit</span>
+    <span class="value">
+        None
+    </span>
+  </li>
+
+    <li>
+      <span class="title">Allowed attempts</span>
+      <span class="value">
+          Unlimited
+      </span>
+    </li>
+
+</ul>
+
+
+
+    </div>
+
+
+          <div class="alert alert-danger lock_explanation" role="alert">
+            This quiz is no longer available as the course has been concluded.
+          </div>
+
+    <div id="quiz-submission-version-table" style="height: auto; opacity: 1; display: block;">
+  <div class="desc">
+    <h3>Attempt history</h3>
+  </div>
+  <table class="ic-Table ic-Table--condensed" summary="A table that shows your quiz attempt history. Each attempt is on the left side. The attempt, time, and score are across the top.">
+    <thead>
+      <tr>
+        <td></td>
+        <th scope="col">Attempt</th>
+        <th scope="col">Time</th>
+        <th scope="col">Score</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+        
+<tr class="">
+  <th scope="row" class="ic-Table--header-row">
+      LATEST
+  </th>
+  <td>
+    <a href="https://canvas.vub.be/courses/24056/quizzes/23760/history?version=1">
+      Attempt 1
+    </a>
+  </td>
+  <td>
+    5,711 minutes
+  </td>
+
+    <td>
+      20 out of 20
+      
+    </td>
+</tr>
+
+    </tbody>
+  </table>
+
+</div>
+
+  </header>
+
+  <div id="direct-share-mount-point"></div>
+
+    
+  
+<div class="quiz-submission ">
+
+  <div class="alert">
+    <i class="icon-warning" aria-label="Correct answers are hidden."></i>
+    <span>Correct answers are hidden.</span>
+  </div>
+
+<div class="quiz_score" style="">
+    Score for this attempt:
+  <span class="score_value">20</span> out of 20
+  
+    </div>
+<div>
+  Submitted 6 Mar 2022 at 15:40
+</div>
+<div class="quiz_duration" style="">
+  This attempt took 5,711 minutes.
+</div>
+<div id="questions" class="assessment_results  suppress_correct_answers">
+  
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_172185"></a>
+  <div class="display_question question essay_question     " id="question_172185">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 1</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                2
+          <span class="points question_points"> / 2</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">essay_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760/questions/172185" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">&lt;h2&gt;Simulation of transistors&lt;/h2&gt;
+&lt;p&gt;Most Spice components also use something called a&amp;nbsp;&lt;strong&gt;model&lt;/strong&gt;. A model is a bundle of common parameters (and equations) that are shared between multiple components. For example, the oxide thickness is common to all transistors so is part of the&amp;nbsp;&lt;em&gt;model&lt;/em&gt;, but the geometrical properties (eg. transistor width and length) of each transistor is specified on the &lt;em&gt;component&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In order to run simulations for any circuit containing transistors, you will need to include the following Spice operative (using the &lt;img src="/courses/24056/files/1140699/preview" alt="sp-1.JPG"&gt; button&amp;nbsp;):&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;.inc library.mod&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;This line lets the simulator inherit the properties of PMOS and NMOS transistors we need from the library file. Even without the ".inc library.mod" command, the simulations will run but the results will be for some other generic transistor models provided by LTspice. So, it is &lt;strong&gt;important &lt;/strong&gt;to include the &lt;strong&gt;".inc library.mod"&lt;/strong&gt;.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;&lt;span style="color: #e03e2d; text-decoration: underline;"&gt;Note: Please use transistors PMOS4 and NMOS4 from the component library&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Transistor as a resistor&lt;/h2&gt;
+&lt;p&gt;The&amp;nbsp;&lt;strong&gt;triode region&lt;/strong&gt;&amp;nbsp;of a transistor can be approximated by a straight I-V curve through the origin. This is the same characteristic as a resistor! In other words, when you can keep the I-V characteristic within this region, the transistor will behave like a resistor.&lt;/p&gt;
+&lt;p&gt;Build the following circuit with M1 size W/L=1u/1u:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/courses/24056/files/1140692/preview" alt="2_1.JPG"&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Sweep V2 from 0 to 3.3V (the maximum allowed voltage for this process) with a step of 0.1 V and plot the current through NMOS M1 and resistor R1.&lt;/p&gt;
+&lt;p&gt;Transistor sizes are not as accurate as you might think. Process variations can quickly lead to variation on transistor currents&amp;nbsp;of +-10%. It is therefore not a good idea to try and design a transistor for a specific current with 0.01um accuracy on the width or length.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose the sizes of the transistor (in its triode region) such that M1 behaves (approximately) like a 10kOhm resistor. Copy the input netlist below.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span style="color: #ff0000;"&gt;Also remember that the&amp;nbsp;&lt;strong&gt;minimum&lt;/strong&gt;&amp;nbsp;size of a transistor is&amp;nbsp;&lt;strong&gt;0.4um (W) /0.35um (L) for &lt;em&gt;this&lt;/em&gt;&amp;nbsp;process&lt;/strong&gt;.&lt;/span&gt;&lt;/p&gt;</textarea>
+      </div>
+      <div id="question_172185_question_text" class="question_text user_content enhanced">
+          <h2>Simulation of transistors</h2>
+<p>Most Spice components also use something called a&nbsp;<strong>model</strong>. A model is a bundle of common parameters (and equations) that are shared between multiple components. For example, the oxide thickness is common to all transistors so is part of the&nbsp;<em>model</em>, but the geometrical properties (eg. transistor width and length) of each transistor is specified on the <em>component</em>.</p>
+<p>In order to run simulations for any circuit containing transistors, you will need to include the following Spice operative (using the <img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/sp-1.JPG" alt="sp-1.JPG"> button&nbsp;):</p>
+<p><span>.inc library.mod</span></p>
+<p><span>This line lets the simulator inherit the properties of PMOS and NMOS transistors we need from the library file. Even without the ".inc library.mod" command, the simulations will run but the results will be for some other generic transistor models provided by LTspice. So, it is <strong>important </strong>to include the <strong>".inc library.mod"</strong>.&nbsp;</span></p>
+<p><span style="text-decoration: underline;"><strong><span style="color: #e03e2d; text-decoration: underline;">Note: Please use transistors PMOS4 and NMOS4 from the component library</span></strong></span></p>
+<h2>Transistor as a resistor</h2>
+<p>The&nbsp;<strong>triode region</strong>&nbsp;of a transistor can be approximated by a straight I-V curve through the origin. This is the same characteristic as a resistor! In other words, when you can keep the I-V characteristic within this region, the transistor will behave like a resistor.</p>
+<p>Build the following circuit with M1 size W/L=1u/1u:</p>
+<p><img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/2_1.JPG" alt="2_1.JPG">&nbsp;&nbsp;</p>
+<p>Sweep V2 from 0 to 3.3V (the maximum allowed voltage for this process) with a step of 0.1 V and plot the current through NMOS M1 and resistor R1.</p>
+<p>Transistor sizes are not as accurate as you might think. Process variations can quickly lead to variation on transistor currents&nbsp;of +-10%. It is therefore not a good idea to try and design a transistor for a specific current with 0.01um accuracy on the width or length.</p>
+<ol>
+<li>Choose the sizes of the transistor (in its triode region) such that M1 behaves (approximately) like a 10kOhm resistor. Copy the input netlist below.</li>
+</ol>
+<p><span style="color: #ff0000;">Also remember that the&nbsp;<strong>minimum</strong>&nbsp;size of a transistor is&nbsp;<strong>0.4um (W) /0.35um (L) for <em>this</em>&nbsp;process</strong>.</span></p>
+      </div>
+      <div class="answers">
+              <div>
+                  Your answer:
+                  <div class="user_content quiz_response_text enhanced"><p>* C:\Users\kou\Desktop\Cmoslab\exercise 2\Draft1.asc<br>R1 N001 0 10k<br>V1 N002 0 3.3<br>V2 N001 0<br>M1 N001 N002 0 0 NMOS l=0.8u w=0.4u<br>.model NMOS NMOS<br>.model PMOS PMOS<br>.lib C:\Users\kou\OneDrive - Vrije Universiteit Brussel\文档\LTspiceXVII\lib\cmp\standard.mos<br>.inc library.mod<br>.dc V2 0 3.3 0.1<br>.backanno<br>.end</p></div>
+              </div>
+                <div class="answers_wrapper">
+                  
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_172186"></a>
+  <div class="display_question question essay_question" id="question_172186">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 2</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                5
+          <span class="points question_points"> / 5</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">essay_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760/questions/172186" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;Save the previous schematic to a new file, and modify the circuit to the following high pass filter. The left part of V2 is the reference high pass filter, while the right part is the MOS-only high pass filter.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &amp;nbsp; &lt;img src="/courses/24056/files/1140696/preview" alt="dmeCMOSs2e2.PNG"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Of course, you should use the same W and L for the NMOS M1 as found in the previous exercise.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The&amp;nbsp;source pulses between 0 and 0.1V, has a delay of 1ns, rise and fall times of 1ns, pulse width of 1us and a period of 2us. Simulate two periods of the circuit.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Verify that the filter behaves similarly in both cases.&lt;/li&gt;
+&lt;li&gt;Now change the voltage source to pulse between 0V and 2V (instead of 0V and 0.1V) and execute the simulation. How does the circuit deviate from the reference (slower or faster) when the input is high? Explain why.&lt;/li&gt;
+&lt;li&gt;Why doesn't the voltage reach -2V when the input transitions low while it still (almost) reaches +2V when the input goes high?&lt;/li&gt;
+&lt;/ol&gt;</textarea>
+      </div>
+      <div id="question_172186_question_text" class="question_text user_content enhanced">
+          <p>Save the previous schematic to a new file, and modify the circuit to the following high pass filter. The left part of V2 is the reference high pass filter, while the right part is the MOS-only high pass filter.</p>
+<p>&nbsp; &nbsp; <img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/dmeCMOSs2e2.PNG" alt="dmeCMOSs2e2.PNG">&nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p><span style="text-decoration: underline;">Of course, you should use the same W and L for the NMOS M1 as found in the previous exercise.</span></p>
+<p>The&nbsp;source pulses between 0 and 0.1V, has a delay of 1ns, rise and fall times of 1ns, pulse width of 1us and a period of 2us. Simulate two periods of the circuit.</p>
+<ol>
+<li>Verify that the filter behaves similarly in both cases.</li>
+<li>Now change the voltage source to pulse between 0V and 2V (instead of 0V and 0.1V) and execute the simulation. How does the circuit deviate from the reference (slower or faster) when the input is high? Explain why.</li>
+<li>Why doesn't the voltage reach -2V when the input transitions low while it still (almost) reaches +2V when the input goes high?</li>
+</ol>
+      </div>
+      <div class="answers">
+              <div>
+                  Your answer:
+                  <div class="user_content quiz_response_text enhanced"><p>2. when input is high, the mos-high pass filter voltage&nbsp; decrease&nbsp; slower than reference high-pass filter voltage,</p>
+<p>Because when Vds of M1 increases to 2v, the M1 will be working in the saturation region,&nbsp; So the current of M1 has a very less relationship with Vds,&nbsp; and the current generated by M1 is nearly equal to constant.&nbsp;</p>
+<p>Hence,&nbsp; when M1 is working in the saturation region, the voltage of C2&nbsp; will increase linearly (charging),&nbsp; and the mos-high pass filter voltage&nbsp; will decrease&nbsp; linearly,</p>
+<p>but, on the left side,&nbsp; when VR1 suddenly increase to 2V at T0, according to Ohm's Law， the current of R1 is proportional to voltage, So the current will also suddenly increase,&nbsp; and the current of R1 is larger than the current of M1 at T0,&nbsp; &nbsp;so Vc1 will increase faster than Vc2 at the beginning, and then with the decreasing of VR1,&nbsp; the current of R1 will also decrease, then the charging speed of C1 will decrease, so that's why the Vr1 will decrease nonlinearly and decrease faster than Vd when M1 working in saturation.&nbsp;&nbsp;</p>
+<p>3. When input suddenly decreases from 2v to 0v at T1,&nbsp; &nbsp;at this time Vd will suddenly decrease from 0 to -0.7V, Then when Vd reaches -0.7V, the diode between bulk and drain will be conducted,&nbsp; a huge current will flow from drain to bulk,&nbsp; the capacitor will be fast-charged at T1, so that's why Vd can not continue to decrease when Vd reaches -0.7V.&nbsp; then Vd starts to increase with the capacitor charging,&nbsp; then when Vd is larger than -0.7V,&nbsp; the diode between drain and bulk stop conduct, then the current will flow from source to drain, then Vd will start to decrease exponentially.&nbsp;</p>
+<p>&nbsp;</p></div>
+              </div>
+                <div class="answers_wrapper">
+                  
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_172187"></a>
+  <div class="display_question question essay_question     " id="question_172187">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 3</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">essay_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760/questions/172187" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;By changing the gate-source voltage of the NMOS transistor, we can alter the resistance in the triode region. The transistor becomes a&amp;nbsp;&lt;strong&gt;voltage-controlled resistor&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Reset the pulsed value of V2 to 0.1V.&amp;nbsp;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What happens to the transistor as a resistor if we change the gate voltage (V1) to 2V rather than 3.3V?&lt;/li&gt;
+&lt;li&gt;How does this influence the highpass filter behavior?&lt;/li&gt;
+&lt;/ol&gt;</textarea>
+      </div>
+      <div id="question_172187_question_text" class="question_text user_content enhanced">
+          <p>By changing the gate-source voltage of the NMOS transistor, we can alter the resistance in the triode region. The transistor becomes a&nbsp;<strong>voltage-controlled resistor</strong>.</p>
+<p>Reset the pulsed value of V2 to 0.1V.&nbsp;</p>
+<ol>
+<li>What happens to the transistor as a resistor if we change the gate voltage (V1) to 2V rather than 3.3V?</li>
+<li>How does this influence the highpass filter behavior?</li>
+</ol>
+      </div>
+      <div class="answers">
+              <div>
+                  Your answer:
+                  <div class="user_content quiz_response_text enhanced"><p>1. the resistance will increase,&nbsp; and the current through M1 will decrease,</p>
+<p>2. because the current decrease, the voltage charging speed of C2 will decrease,&nbsp; and Vd will decrease more slowly.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+              </div>
+                <div class="answers_wrapper">
+                  
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_172188"></a>
+  <div class="display_question question essay_question     " id="question_172188">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 4</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                3
+          <span class="points question_points"> / 3</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">essay_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760/questions/172188" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;In the&amp;nbsp;&lt;strong&gt;saturation region&lt;/strong&gt;, a transistor will behave like a current source! Build the following circuit with nmos M1 (Width=1u and length =1u):&lt;/p&gt;
+&lt;p&gt;&lt;img src="/courses/24056/files/1140695/preview" alt="2_4-1.PNG" width="652" height="348"&gt; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Sweep V1 from 0V to 3.3V and plot the current through the current source (reference) and the transistor.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Modify the circuit such that the transistor approximates the current source to within &lt;img class="equation_image" title="\pm\:1\:\mu A" src="/equation_images/%255Cpm%255C%253A1%255C%253A%255Cmu%2520A" alt="LaTeX: \pm\:1\:\mu A" data-equation-content="\pm\:1\:\mu A"&gt; &amp;nbsp;over a total range of 3V.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When you sweep V1 voltage from 0.3 V to 3.3 V&amp;nbsp; (3 V range), you should have the M1 drain current (red) in between I1&amp;nbsp; current (green) and I2 current (pink). (as in graph below)&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/courses/24056/files/1140697/preview" alt="2_4_2-1.PNG" width="484" height="335"&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Note: You can change the W, L values of M1 and the value of V2 to achieve this requirement.&lt;/p&gt;</textarea>
+      </div>
+      <div id="question_172188_question_text" class="question_text user_content enhanced">
+          <p>In the&nbsp;<strong>saturation region</strong>, a transistor will behave like a current source! Build the following circuit with nmos M1 (Width=1u and length =1u):</p>
+<p><img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/2_4-1.PNG" alt="2_4-1.PNG" width="652" height="348"> &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>Sweep V1 from 0V to 3.3V and plot the current through the current source (reference) and the transistor.</p>
+<ol>
+<li>Modify the circuit such that the transistor approximates the current source to within <span class="math_equation_latex fade-in-equation" style="null"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax_SVG" id="MathJax-Element-1-Frame" tabindex="0" style="font-size: 100%; display: inline-block; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mo&gt;&amp;#x00B1;&lt;/mo&gt;&lt;mspace width=&quot;mediummathspace&quot; /&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mspace width=&quot;mediummathspace&quot; /&gt;&lt;mi&gt;&amp;#x03BC;&lt;/mi&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/math&gt;" role="presentation"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="7.148ex" height="2.602ex" viewBox="0 -799.3 3077.4 1120.3" role="img" focusable="false" style="vertical-align: -0.745ex;" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMAIN-B1" x="0" y="0"></use><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMAIN-31" x="1000" y="0"></use><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-3BC" x="1723" y="0"></use><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-41" x="2326" y="0"></use></g></svg><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>±</mo><mspace width="mediummathspace"></mspace><mn>1</mn><mspace width="mediummathspace"></mspace><mi>μ</mi><mi>A</mi></math></span></span><script type="math/tex" id="MathJax-Element-1">\pm\:1\:\mu A</script></span> &nbsp;over a total range of 3V.</li>
+</ol>
+<p>When you sweep V1 voltage from 0.3 V to 3.3 V&nbsp; (3 V range), you should have the M1 drain current (red) in between I1&nbsp; current (green) and I2 current (pink). (as in graph below)&nbsp;</p>
+<p><img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/2_4_2-1.PNG" alt="2_4_2-1.PNG" width="484" height="335"> &nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Note: You can change the W, L values of M1 and the value of V2 to achieve this requirement.</p>
+      </div>
+      <div class="answers">
+              <div>
+                  Your answer:
+                  <div class="user_content quiz_response_text enhanced"><p><img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/_ECGT)O9@$OP[K2_}2RV]U8.png" alt="_ECGT)O9@$OP[K2~}2RV]U8.png" title="This is an image, not text, and could have changed since the student submitted" style="border-color: rgb(255, 68, 68); border-style: solid; border-width: 2px; padding: 2px;"></p>
+<p>&nbsp;</p>
+<p>* C:\Users\kou\Desktop\Cmoslab\exercise 2\Draft4.asc<br>M1 N001 N002 0 0 NMOS l=21.3u w=25.5u<br>V1 N001 0 0<br>V2 N002 0 1<br>I1 N001 0 19µ<br>I2 N001 0 21µ<br>.model NMOS NMOS<br>.model PMOS PMOS<br>.lib C:\Users\kou\OneDrive - Vrije Universiteit Brussel\文档\LTspiceXVII\lib\cmp\standard.mos<br>.inc library.mod<br>.dc V1 0 3.3 0.1<br>.backanno<br>.end</p></div>
+              </div>
+                <div class="answers_wrapper">
+                  
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+        <div class="quiz_comment">
+            try to use smaller dimensions
+        </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_172189"></a>
+  <div class="display_question question essay_question     " id="question_172189">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 5</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                4
+          <span class="points question_points"> / 4</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">essay_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760/questions/172189" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;The current through a transistor varies with &lt;img class="equation_image" title="v_{GS}-v_{TH}" src="/equation_images/v_%257BGS%257D-v_%257BTH%257D" alt="LaTeX: v_{GS}-v_{TH}" data-equation-content="v_{GS}-v_{TH}"&gt;. So we can use the gate-voltage to effectively make a &lt;strong&gt;voltage-controlled current source&lt;/strong&gt;, or also called a&amp;nbsp;&lt;strong&gt;transconductance amplifier&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Sometimes the dependency on the threshold voltage is quite annoying! If the temperature changes, then the threshold voltage &lt;img class="equation_image" title="v_{TH}" src="/equation_images/v_%257BTH%257D" alt="LaTeX: v_{TH}" data-equation-content="v_{TH}"&gt; will also change, causing &lt;img class="equation_image" title="v_{GS}-v_{TH}" src="/equation_images/v_%257BGS%257D-v_%257BTH%257D" alt="LaTeX: v_{GS}-v_{TH}" data-equation-content="v_{GS}-v_{TH}"&gt; to change and thus the ids-current through the transistor!&lt;/p&gt;
+&lt;p&gt;In order to avoid this issue, a&amp;nbsp;&lt;strong&gt;current mirror&lt;/strong&gt;&amp;nbsp;can be&amp;nbsp;used. Build the following circuit:&lt;/p&gt;
+&lt;p&gt;&lt;img src="/courses/24056/files/1140694/preview" alt="2_5-2.PNG" width="586" height="296"&gt; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;M1 (W/L=1u/1u) and M2 (W/L=1u/1u) form the current mirror. Don't forget to specify the supply voltage of 3.3 V through V2.&lt;/p&gt;
+&lt;p&gt;Sweep V1 from 0 to 3.3V and plot the current through I2 and M2. Try changing a few sizes and check the current versus V1 (vds).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;How does this circuit work? Explain in your own words how you can prove that the current is copied to M1.&lt;/li&gt;
+&lt;li&gt;How do the W/L ratio of the transistors influence the output drain current characteristic?&lt;/li&gt;
+&lt;li&gt;How do the lengths of the transistors influence the current characteristic (keeping W/L constant)?&lt;/li&gt;
+&lt;/ol&gt;</textarea>
+      </div>
+      <div id="question_172189_question_text" class="question_text user_content enhanced">
+          <p>The current through a transistor varies with <span class="math_equation_latex fade-in-equation" style="null"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax_SVG" id="MathJax-Element-2-Frame" tabindex="0" style="font-size: 100%; display: inline-block; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;mi&gt;S&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="10.528ex" height="2.108ex" viewBox="0 -639.9 4532.9 907.6" role="img" focusable="false" style="vertical-align: -0.622ex;" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-76" x="0" y="0"></use><g transform="translate(485,-155)"><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-47" x="0" y="0"></use><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-53" x="786" y="0"></use></g><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMAIN-2212" x="1820" y="0"></use><g transform="translate(2821,0)"><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-76" x="0" y="0"></use><g transform="translate(485,-150)"><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-54" x="0" y="0"></use><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-48" x="704" y="0"></use></g></g></g></svg><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>v</mi><mrow class="MJX-TeXAtom-ORD"><mi>G</mi><mi>S</mi></mrow></msub><mo>−</mo><msub><mi>v</mi><mrow class="MJX-TeXAtom-ORD"><mi>T</mi><mi>H</mi></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-2">v_{GS}-v_{TH}</script></span>. So we can use the gate-voltage to effectively make a <strong>voltage-controlled current source</strong>, or also called a&nbsp;<strong>transconductance amplifier</strong>.</p>
+<p>Sometimes the dependency on the threshold voltage is quite annoying! If the temperature changes, then the threshold voltage <span class="math_equation_latex fade-in-equation" style="null"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax_SVG" id="MathJax-Element-3-Frame" tabindex="0" style="font-size: 100%; display: inline-block; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.976ex" height="1.738ex" viewBox="0 -533.5 1711.9 748.2" role="img" focusable="false" style="vertical-align: -0.498ex;" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-76" x="0" y="0"></use><g transform="translate(485,-150)"><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-54" x="0" y="0"></use><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-48" x="704" y="0"></use></g></g></svg><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>v</mi><mrow class="MJX-TeXAtom-ORD"><mi>T</mi><mi>H</mi></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-3">v_{TH}</script></span> will also change, causing <span class="math_equation_latex fade-in-equation" style="null"><span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax_SVG" id="MathJax-Element-4-Frame" tabindex="0" style="font-size: 100%; display: inline-block; position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;mi&gt;S&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo&gt;&amp;#x2212;&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;v&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;T&lt;/mi&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="10.528ex" height="2.108ex" viewBox="0 -639.9 4532.9 907.6" role="img" focusable="false" style="vertical-align: -0.622ex;" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-76" x="0" y="0"></use><g transform="translate(485,-155)"><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-47" x="0" y="0"></use><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-53" x="786" y="0"></use></g><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMAIN-2212" x="1820" y="0"></use><g transform="translate(2821,0)"><use href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-76" x="0" y="0"></use><g transform="translate(485,-150)"><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-54" x="0" y="0"></use><use transform="scale(0.707)" href="https://canvas.vub.be/courses/24056/quizzes/23760#MJMATHI-48" x="704" y="0"></use></g></g></g></svg><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>v</mi><mrow class="MJX-TeXAtom-ORD"><mi>G</mi><mi>S</mi></mrow></msub><mo>−</mo><msub><mi>v</mi><mrow class="MJX-TeXAtom-ORD"><mi>T</mi><mi>H</mi></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-4">v_{GS}-v_{TH}</script></span> to change and thus the ids-current through the transistor!</p>
+<p>In order to avoid this issue, a&nbsp;<strong>current mirror</strong>&nbsp;can be&nbsp;used. Build the following circuit:</p>
+<p><img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/2_5-2.PNG" alt="2_5-2.PNG" width="586" height="296"> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>M1 (W/L=1u/1u) and M2 (W/L=1u/1u) form the current mirror. Don't forget to specify the supply voltage of 3.3 V through V2.</p>
+<p>Sweep V1 from 0 to 3.3V and plot the current through I2 and M2. Try changing a few sizes and check the current versus V1 (vds).</p>
+<ol>
+<li>How does this circuit work? Explain in your own words how you can prove that the current is copied to M1.</li>
+<li>How do the W/L ratio of the transistors influence the output drain current characteristic?</li>
+<li>How do the lengths of the transistors influence the current characteristic (keeping W/L constant)?</li>
+</ol>
+      </div>
+      <div class="answers">
+              <div>
+                  Your answer:
+                  <div class="user_content quiz_response_text enhanced"><p>1. Since the gate of M1 is connected with the gate of M2,&nbsp; so Vgs1= Vgs2,&nbsp;</p>
+<p>that means M1 and M2 have the same inversion level,&nbsp; and ids are proportional to W/L, Since M1 and M2 have the same width and length, that's why ids(M1)= ids (M2)</p>
+<p><span style="color: var(--ic-brand-font-color-dark); font-family: inherit; font-size: 1rem;">2. when W/L increases, the output drain current of the transistor will increase.&nbsp;</span></p>
+<p>&nbsp;3.&nbsp; when we increase the length of the transistor, the output conductance will decrease,&nbsp; in the saturation region,&nbsp; the current will be nearly equal to constant, (Vds has low effect on ids, the current slop nearly equal to 0)&nbsp; if we decrease the length, the current value will be affected by the change of Vds (go increase).&nbsp; the slop of current will increase (Ids - Vds curve).&nbsp;</p></div>
+              </div>
+                <div class="answers_wrapper">
+                  
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_172190"></a>
+  <div class="display_question question essay_question     " id="question_172190">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 6</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                2
+          <span class="points question_points"> / 2</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">essay_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760/questions/172190" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;Build and simulate a current mirror similar to the previous exercise &lt;strong&gt;using PMOS transistors&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Hint: It is not as straight forward as replacing just the NMOS by PMOS transistors.&lt;/p&gt;
+&lt;p&gt;Copy the netlist below.&lt;/p&gt;</textarea>
+      </div>
+      <div id="question_172190_question_text" class="question_text user_content enhanced">
+          <p>Build and simulate a current mirror similar to the previous exercise <strong>using PMOS transistors</strong>.</p>
+<p>Hint: It is not as straight forward as replacing just the NMOS by PMOS transistors.</p>
+<p>Copy the netlist below.</p>
+      </div>
+      <div class="answers">
+              <div>
+                  Your answer:
+                  <div class="user_content quiz_response_text enhanced"><p>* C:\Users\kou\Desktop\Cmoslab\exercise 2\Draft6.asc<br>I1 N002 0 20µ<br>I2 N001 vdd 20µ<br>M3 N002 N001 vdd vdd PMOS l=1u w=1u<br>M4 N001 N001 vdd vdd PMOS l=1u w=1u<br>V3 N002 0 0<br>V2 vdd 0 3.3<br>.model NMOS NMOS<br>.model PMOS PMOS<br>.lib C:\Users\kou\OneDrive - Vrije Universiteit Brussel\文档\LTspiceXVII\lib\cmp\standard.mos<br>.inc library.mod<br>.dc V3 3.3 0 -0.1<br>.backanno<br>.end</p></div>
+              </div>
+                <div class="answers_wrapper">
+                  
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_172191"></a>
+  <div class="display_question question essay_question     " id="question_172191">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 7</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                2
+          <span class="points question_points"> / 2</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">essay_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760/questions/172191" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;The&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;MOS switch&lt;/strong&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;is the easiest way to think about a transistor. We typically distinguish two states the transistor can be in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If vgs &amp;gt; vt, then the transistor is&amp;nbsp;&lt;strong&gt;on&lt;/strong&gt;, the drain and source are connected by a channel under the gate.&lt;/li&gt;
+&lt;li&gt;If vgs &amp;lt; vt, then the transistor is&amp;nbsp;&lt;strong&gt;off&lt;/strong&gt;, the drain and source are not connected by a channel under the gate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, the I-V characteristic is still respected. If vds is small, the transistor will operate in the triode region, and if vds &amp;gt; vgs - vt then the transistor will be in saturation. For a switch to operate&amp;nbsp;&lt;em&gt;properly&lt;/em&gt;&amp;nbsp;we want the transistor to act like a&amp;nbsp;&lt;em&gt;short-circuit&lt;/em&gt;. In other words, we want high current and low voltage drops.&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;Build the following circuit with W/L for M1 as 0.4u/0.35u:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp; &lt;img src="/courses/24056/files/1140693/preview" alt="2_7-1.PNG" width="451" height="338"&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The input should be a pulsed voltage source V1 between 0 and 3.3V, delay, rise and fall time are 1ns, pulse width is 1us and period is 2us.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The NMOS is not strong enough to make the voltage go to 0V. Choose the transistor M1 sizes such that the output voltage drops below 0.1V while keeping the used chip area to a minimum.&lt;/li&gt;
+&lt;li&gt;Copy the obtained netlist file below.&lt;/li&gt;
+&lt;/ol&gt;</textarea>
+      </div>
+      <div id="question_172191_question_text" class="question_text user_content enhanced">
+          <p>The<span>&nbsp;</span><strong>MOS switch</strong><span>&nbsp;</span>is the easiest way to think about a transistor. We typically distinguish two states the transistor can be in:</p>
+<ul>
+<li>If vgs &gt; vt, then the transistor is&nbsp;<strong>on</strong>, the drain and source are connected by a channel under the gate.</li>
+<li>If vgs &lt; vt, then the transistor is&nbsp;<strong>off</strong>, the drain and source are not connected by a channel under the gate.</li>
+</ul>
+<p>Of course, the I-V characteristic is still respected. If vds is small, the transistor will operate in the triode region, and if vds &gt; vgs - vt then the transistor will be in saturation. For a switch to operate&nbsp;<em>properly</em>&nbsp;we want the transistor to act like a&nbsp;<em>short-circuit</em>. In other words, we want high current and low voltage drops.</p>
+<p><span style="text-decoration: underline;">Build the following circuit with W/L for M1 as 0.4u/0.35u:</span></p>
+<p>&nbsp; <img src="./Exercise 2 - MOSFET operation_ Sensors and Microsystem Electronics - 009087_files/2_7-1.PNG" alt="2_7-1.PNG" width="451" height="338">&nbsp;&nbsp;</p>
+<p>The input should be a pulsed voltage source V1 between 0 and 3.3V, delay, rise and fall time are 1ns, pulse width is 1us and period is 2us.</p>
+<ol>
+<li>The NMOS is not strong enough to make the voltage go to 0V. Choose the transistor M1 sizes such that the output voltage drops below 0.1V while keeping the used chip area to a minimum.</li>
+<li>Copy the obtained netlist file below.</li>
+</ol>
+      </div>
+      <div class="answers">
+              <div>
+                  Your answer:
+                  <div class="user_content quiz_response_text enhanced"><p>* C:\Users\kou\Desktop\Cmoslab\exercise 2\Draft7.asc<br>R1 N001 OUT 50k<br>V1 N002 0 PULSE(0 3.3 1n 1n 1n 1u 2u)<br>V2 N001 0 3.3<br>M1 OUT N002 0 0 NMOS l=0.35u w=1.14u<br>.model NMOS NMOS<br>.model PMOS PMOS<br>.lib C:\Users\kou\OneDrive - Vrije Universiteit Brussel\文档\LTspiceXVII\lib\cmp\standard.mos<br>.inc library.mod<br>.tran 10u<br>.backanno<br>.end</p></div>
+              </div>
+                <div class="answers_wrapper">
+                  
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_172192"></a>
+  <div class="display_question question essay_question     " id="question_172192">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header">
+      <span class="name question_name" role="heading" aria-level="2">Question 8</span>
+      <span class="question_points_holder" style="">
+        <div class="user_points">
+                1
+          <span class="points question_points"> / 1</span> pts
+        </div>
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="edit_question_link no-hover" title="Edit this question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this question</span></i></a>
+          <a href="https://canvas.vub.be/courses/24056/quizzes/23760#" class="delete_question_link no-hover" title="Delete this question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">essay_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="https://canvas.vub.be/courses/24056/quizzes/23760/questions/172192" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled="" style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled="" style="display: none;" name="question_text" class="textarea_question_text">&lt;p&gt;Create similar circuit and simulate as in the previous question using only a PMOS transistor.&lt;/p&gt;
+&lt;p&gt;Copy the input netlist below.&lt;/p&gt;</textarea>
+      </div>
+      <div id="question_172192_question_text" class="question_text user_content enhanced">
+          <p>Create similar circuit and simulate as in the previous question using only a PMOS transistor.</p>
+<p>Copy the input netlist below.</p>
+      </div>
+      <div class="answers">
+              <div>
+                  Your answer:
+                  <div class="user_content quiz_response_text enhanced"><p>* C:\Users\kou\Desktop\Cmoslab\exercise 2\Draft8.asc<br>R1 0 OUT 50k<br>V1 N001 0 PULSE(0 3.3 1n 1n 1n 1u 2u)<br>M2 OUT N001 vdd vdd PMOS l=0.35u w=4u<br>V2 vdd 0 3.3<br>.model NMOS NMOS<br>.model PMOS PMOS<br>.lib C:\Users\kou\OneDrive - Vrije Universiteit Brussel\文档\LTspiceXVII\lib\cmp\standard.mos<br>.inc library.mod<br>.tran 10u<br>.backanno<br>.end</p></div>
+              </div>
+                <div class="answers_wrapper">
+                  
+                </div>
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+      
+    <div class="clear"></div>
+  </div>
+</div>
+
+</div>
+  <div id="update_scores">
+
+
+<div class="quiz_score" style="text-align: right; font-size: 1.2em; ">
+    Quiz score:
+  <span class="score_value">20</span> out of 20
+</div>
+</div> <!-- #speed_update_scores || #update_scores -->
+</div>
+
+
+
+
+  <div id="assignment_external_tools"><div></div></div>
+
+  <div id="module_sequence_footer" style="display: none;"></div>
+
+</div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+                <div id="sidebar_content" class="rs-margin-bottom">
+      <ul class="page-action-list" style="display:none;">
+        <h2>Related items</h2>
+
+
+
+      </ul>
+    </div>
+
+        
+  <div>
+    <div style="border-bottom: 1px solid #888; font-size: 1.1em; font-weight: bold;">
+        Last attempt details:
+    </div>
+    <div>
+    <table class="summary" style="font-size: 1.1em;">
+      <tbody>
+        <tr>
+          <th>Time:</th>
+          <td>5,711 minutes</td>
+        </tr>
+        <tr style="">
+          <th>Current score:</th>
+          <td>20 out of 20
+                  </td>
+        </tr>
+        <tr style="">
+          <th>Kept score:</th>
+          <td>20 out of 20</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+      <div style="margin-left: 20px; margin-top: 20px; line-height: 1.3em;">
+          Unlimited attempts<br>
+      </div>
+
+
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">3f3c1d08-aca7-49c9-8f58-1d8ded18eabf</div>
+    </div>
+  <div id="aria_alerts" class="hide-text affix" role="alert" aria-live="assertive"></div>
+  <div id="StudentTray__Container"></div>
+    <div class="NewUserTutorialTray__Container"></div>
+  
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/inst_fs_service_worker-c-cf69d8b6de.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+      ;["https://instructure-uploads-eu.s3.eu-west-1.amazonaws.com/account_122300000000000001/attachments/68211/main.js"].forEach(function(src) {
+        var s = document.createElement('script'); s.src = src; s.async = false;
+        document.head.appendChild(s)
+      });
+//]]>
+</script>
+
+</div> <!-- #application -->
+
+
+<div id="nav-tray-portal" style="position: relative; z-index: 99;"></div><div class="tinymce-a11y-checker-container"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
