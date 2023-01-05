@@ -1,0 +1,28 @@
+Circuit: * C:\Users\kou\Desktop\cmos lab\QUESTION7.asc
+
+.step r=1000
+.step r=2000
+.step r=3000
+.step r=4000
+.step r=5000
+.step r=6000
+.step r=7000
+.step r=8000
+.step r=9000
+.step r=10000
+
+Date: Tue Mar 01 20:17:50 2022
+Total elapsed time: 0.101 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 3
+fillins = 0
+solver = Normal
+

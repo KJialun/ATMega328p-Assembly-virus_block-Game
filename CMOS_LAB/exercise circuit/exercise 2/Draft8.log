@@ -1,0 +1,23 @@
+Circuit: * C:\Users\kou\Desktop\Cmoslab\exercise 2\Draft8.asc
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Mar 04 17:21:21 2022
+Total elapsed time: 0.084 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3066
+traniter = 3062
+tranpoints = 1455
+accept = 1345
+rejected = 110
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 132 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: off  [0.0]/0.1/0.0
+
